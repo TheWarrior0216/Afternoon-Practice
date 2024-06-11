@@ -3,3 +3,9 @@ background-image: url(https://th.bing.com/th/id/R.f884ea5ef5093dcac9fafdf1f9d5cc
 object-fit: cover;
 background-position: center;
 }
+.score{
+  font-size: 200px;
+}
+.buttonSize{
+  font-size: x-large;
+}

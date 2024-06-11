@@ -13,40 +13,40 @@
   <header class="container">
 <div class="row justify-content-end">
   <div class="col-2 ">
-    <button class="btn btn-danger px-5 my-3"> RESET</button>
+    <button class="btn btn-danger px-5 my-3 " onclick="reset()"> RESET</button>
   </div>
 </div>
   </header>
   
   <main>
-  <section class="container bg-info">
-  <div class="row border text-center justify-content-around">
+  <section class="container bg-info p-5">
+  <div class="row  text-center justify-content-around">
     <div class="col-6">
-      <h2>Home</h2>
+      <h1>Home</h1>
     </div>
     <div class="col-6">
-      <h2>Away</h2>
+      <h1>Away</h1>
     </div>
-    <div class="col-5 bg-danger">
-      <div> SOME NUMBER HERE</div>
+    <div class="col-5 bg-danger border  ">
+      <div id="HomeScore" class="score">00</div>
     </div>
-    <div class="col-5 bg-danger"> Some Other Number</div>
+    <div id="AwayScore" class="col-5 bg-danger score border ">00</div>
   </div>
   </section>
 
   <section class="container">
     <div class="row text-center justify-content-around">
       <div class="col-6">
-        <div class="btn btn-danger" onclick="addHPoints"> Home +1</div>
+        <div class="btn btn-danger buttonSize m-3" onclick="addHPoints()"> Home +1</div>
       </div>
       <div class="col-6">
-        <div class="btn btn-danger" onclick="addAPoints"> Away +1</div>
+        <div class="btn btn-danger buttonSize m-3" onclick="addAPoints()"> Away +1</div>
       </div>
       <div class="col-6">
-        <div class="btn btn-danger" onclick="addHPoints3"> Home +3</div>
+        <div class="btn btn-danger buttonSize m-3" onclick="addHPoints3()"> Home +3</div>
       </div>
       <div class="col-6">
-        <div class="btn btn-danger" onclick="addAPoints3"> Away +3</div>
+        <div class="btn btn-danger buttonSize m-3" onclick="addAPoints3()"> Away +3</div>
       </div>
     </div>
   </section>
